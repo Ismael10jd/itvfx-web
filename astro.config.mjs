@@ -8,6 +8,7 @@ export default defineConfig({
 		starlight({
 			title: 'ITVFX STUDIO',
 			social: { icon: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/it_vfx/' },
+			customCss: ['./src/content/docs/styles.css'],
 			sidebar: [
 				{
 					label: 'Guides',
