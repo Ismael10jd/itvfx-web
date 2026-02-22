@@ -1,9 +1,21 @@
 :root {
-  /* Color principal de tu marca (Cian Eléctrico) */
-  --sl-color-accent-low: #003d4d;
-  --sl-color-accent: #00e5ff;
-  --sl-color-accent-high: #b3f7ff;
+  /* Escala de Grises y Negros para tu marca */
+  --sl-color-accent-low: #1a1a1a;
+  --sl-color-accent: #ffffff; /* El blanco resaltará sobre el negro */
+  --sl-color-accent-high: #e0e0e0;
   
-  /* Fondo oscuro profundo */
-  --sl-color-bg: #050505;
+  /* Fondo Negro Total */
+  --sl-color-bg: #000000;
+  --sl-color-bg-nav: #050505;
+  --sl-color-bg-sidebar: #050505;
+
+  /* Texto para que sea legible */
+  --sl-color-text: #ffffff;
+  --sl-color-text-accent: #ffffff;
+}
+
+/* Efecto para que los bordes sean sutiles */
+:root {
+  --sl-color-hairline-light: #222222;
+  --sl-color-hairline: #111111;
 }
