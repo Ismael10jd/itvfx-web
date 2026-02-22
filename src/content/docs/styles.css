@@ -1,0 +1,9 @@
+:root {
+  /* Color principal de tu marca (Cian Eléctrico) */
+  --sl-color-accent-low: #003d4d;
+  --sl-color-accent: #00e5ff;
+  --sl-color-accent-high: #b3f7ff;
+  
+  /* Fondo oscuro profundo */
+  --sl-color-bg: #050505;
+}
